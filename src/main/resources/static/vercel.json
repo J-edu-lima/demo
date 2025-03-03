@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "atestado.html",
+      "use": "@vercel/static"
+    }
+  ]
+}
