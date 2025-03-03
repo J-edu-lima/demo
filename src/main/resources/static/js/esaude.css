@@ -1,0 +1,1151 @@
+/**************** TABELAS ****************/
+.coluna-numerica, .ui-datatable tfoot td.coluna-numerica{
+	text-align: right !important;
+}
+.coluna-texto, .ui-datatable tfoot td.coluna-texto{
+	text-align: left !important;
+}
+.coluna-descricao, .ui-datatable tfoot td.coluna-descricao{
+	text-align: left !important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 100%;	
+}
+.coluna-data, .ui-datatable tfoot td.coluna{
+	text-align: center !important;
+}
+.coluna-formatada, .ui-datatable tfoot td.coluna-formatada{
+	text-align: center !important;
+}
+
+.transparent {
+	visibility: hidden;
+	/*display: none;*/
+}
+
+.invisivel {
+	visibility: hidden;
+}
+
+.nopad {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+/************ FIM TABELAS ****************/
+
+
+/**************** Linhas datatable ****************/
+
+
+.ui-datatable .ui-datatable-tablewrapper table tbody .ui-state-hover td{
+	background-color: rgba(93, 194, 138, 0.95);
+	color:white;
+}
+
+.ui-datatable .ui-datatable-tablewrapper table tbody .ui-state-highlight td{
+	background-color: #D0D3D4;
+}
+
+
+.vermelho {
+	background-color: #FA8072 !important;
+	background-image: none !important;
+	color: #000 !important;
+	/* background-image: none !important;
+	color: #000000 !important; */
+}
+
+.azul {
+	background-color: #B0C4DE !important;
+	background-image: none !important;
+	color: #000 !important;
+	/* background-image: none !important;
+	color: #000000 !important; */
+}
+
+.amarelo {
+	background-color: #F0F0AD !important;
+	background-image: none !important;
+	color: #000 !important;
+	/* background-image: none !important;
+	color: #000000 !important; */
+}
+
+/**************** TABELAS ****************/
+
+.frame{
+	width: 98% !important;
+	height: 98% !important;
+	padding: 2px !important;
+}
+
+.conteudo-frame .ui-dialog .ui-dialog-content {
+	width: 100% !important;
+	height: 100% !important;
+	border: none !important;
+	display: block !important;
+	padding: 2px !important;
+}
+
+
+
+.ui-dialog .ui-dialog-content{
+	padding: 2px !important;
+}
+
+ iframe { 
+display: block;  
+/* background: #000; */ 
+border: none; 
+
+ height: 80vh; 
+  
+ width: 97vw; 
+ }  
+ 
+ .modalPessoa{
+    background: white;
+	width: 60% !important;
+	height: 60% !important;
+	padding: 2px !important;
+ }
+ 
+ 
+ /**************************** Panel ************************************/
+ /* Há no código xhtml como style. Modificar no código quando realizar ajustes*/
+ .retiraBorda, .ui-panelgrid tbody tr td, .ui-panelgrid {
+ 	border:0px none !important;
+ 	background:none !important;
+ 	font-size: 100% !important; 
+ }
+ 
+ /*Criado este style para que os campos dos input field dos calendar tenham 100% como */
+.calendar100 input {
+  width: 100% !important;
+}
+
+.calendar96 input {
+  width: 96% !important;
+}
+
+.calendar90 input {
+  width: 90% !important;
+}
+
+.calendar80 input {
+  width: 80% !important;
+}
+
+.calendar50 input {
+  width: 50% !important;
+}
+
+.calendar_content{}
+.calendar_content input{
+	width:100px;
+}
+
+.autoComplete100 {
+	width: calc(100% - 33px) !important;
+}
+
+.autoComplete100 input {
+	width: 100% !important;
+}
+
+.autoCompleteBotao {
+	width: 100% !important;
+}
+
+.autoCompleteBotao input {
+	width: 100% !important;
+}
+
+.panelGridZeroPadding div.ui-panelgrid-cell, .panelGridZeroPadding td {
+	padding: 0px !important;
+}
+
+.selectOneButton200px div.ui-button {
+	width: 200px;
+	padding: 1px;
+} 
+
+.selectOneButton185px div.ui-button {
+	width: 185px;
+	padding: 1px;
+} 
+
+/********* retira o paddin para o overlay *********************/
+.ui-overlaypanel .ui-overlaypanel-content {
+    background-color: #FBFCFD;
+    padding: 0px !important;
+    border-radius: 5px;
+}
+
+.botaoVermelho span.ui-button-text {
+	background: none repeat scroll 0% 0% #ca000e !important;
+	border-radius:50% !important;
+	z-index: 0 !important;
+}
+
+.botaoVerde span.ui-button-text {
+	background: none repeat scroll 0% 0% #539f01 !important;
+	border-radius:50% !important;
+	z-index: 0 !important;
+}
+
+.botaoAmarelo span.ui-button-text {
+	background: none repeat scroll 0% 0% #fcd209 !important;
+	border-radius:50% !important;
+	z-index: 0 !important;
+}
+
+.botaoBranco span.ui-button-text {
+	background: none repeat scroll 0% 0% #FFF !important;
+	border:1px solid #000;
+	border-radius:50% !important;
+	z-index: 0 !important;
+}
+
+.outPutLabelVermelho {
+	background-color: #F34457 !important;
+}
+
+.outPutLabelVerde {
+	background-color: #13CBB8 !important;
+}
+
+.outPutLabelAmarelo {
+	background-color: #FCED97 !important;
+}
+
+.outPutLabelBranco {
+	background-color: #FFF !important;
+}
+
+.labelBold {
+	font-weight: bold !important;
+}
+
+.textoVermelho {
+	color: #FC0B0B !important;
+}
+
+
+.componenteAdmissao{
+	font-size: 8px;
+}
+
+.exameFisicoSonRespiratorios div.ui-corner-right {
+	margin-top:75px;
+}
+
+.exameFisicoTipoRuido div.ui-selectonebutton{
+	margin-top:40px;
+}
+
+.rowExpansionTransparent tr.ui-expanded-row td {
+	background-color: transparent !important;
+}
+
+.blockUI{
+	opacity: 0.1 !important;	
+}
+
+.jqplot-data-label{
+	color: white !important;
+	font-weight: bold !important;
+	font-size: 14px !important;
+}
+
+.ui-fieldset-legend{
+	background: #58799f !important;
+	border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.legendaBPAEnviado {
+	float: left;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	margin-left: 15px;
+	background-color: #ca000e;
+	margin-top: 10px;
+	margin-right: 10px
+}
+
+.indicadorBPAEnviado .ui-button-text.ui-c {
+	width: 12px !important;
+    height: 12px !important;
+    padding: 0 !important;
+}
+
+.labelEnviadoBPA {
+	color: red !important;
+	float: right;
+	text-align: right;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.label100 {
+	width: 100%;
+}
+
+.botaoExameFisicoSelecionado .ui-button-text.ui-c{
+	background-color: #2A3E5C !important;
+}
+
+.ui-datepicker{
+	z-index: 99999999999 !important;
+}
+
+.fundo-campanha{
+	background-color: #f3f6f9; 
+	border:0 !important
+}
+
+.labelBold{
+	font-weight: bold;
+}
+
+.panel-avaliacao-toracica{
+	background-color: #f3f6f9; 
+}
+
+.campoPesquisaSae{
+	width: 300px !important;
+	position: absolute !important;
+	right: 0 !important;
+	top: 0 !important;
+	margin-top: 0 !important;
+	border-radius: 0 5px 0 0;	
+	padding: 8px !important;
+}
+
+.campoPesquisaSaeInput{
+	/*border: 1px solid #46948c !important;*/
+	width: 240px;
+	float: left;
+	border-radius: 5px 0 0 5px !important;
+	height: 37px;
+}
+
+.favoritoPrescricao{
+	    font-size: 1.3em;
+	    margin-top: -10px !important;
+}
+
+
+.nivelRegulador1 .ui-button.ui-state-hover{
+	background:#F05050 !important;
+	border:inset 3px #F05050 !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+}
+
+.nivelRegulador1 .ui-button-text{
+	background: #F05050 !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador2 .ui-button.ui-state-hover{
+	background:#FF9E00 !important;
+	border:inset 3px #FF9E00 !important;
+	position:relative;
+}
+
+.nivelRegulador2 .ui-button-text{
+	background: #FF9E00  !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador3 .ui-button.ui-state-hover{
+	background:#FFD54F !important;
+	border:inset 3px #FFD54F !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+}
+
+.nivelRegulador3 .ui-button-text{
+	background: #FFD54F !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador4 .ui-button.ui-state-hover{
+	background:#66BB6A !important;
+	border:inset 3px #66BB6A !important;;
+	position:relative;
+	height: 50px;
+	width: 50px;
+}
+
+.nivelRegulador4 .ui-button-text{
+   	background: #66BB6A !important;
+   	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador5 .ui-button.ui-state-hover{
+	background:#42A5F5 !important;
+	border:inset 3px #42A5F5 !important;;
+	position:relative;
+	height: 50px;
+	width: 50px;
+}
+
+.nivelRegulador5 .ui-button-text{
+   	background: #42A5F5 !important;
+   	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+
+.nivelRegulador1Check .ui-button-text{
+    background:#F05050 !important;
+	border:inset 3px #F05050 !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador2Check .ui-button-text{
+    background:#FF9E00 !important;
+	border:inset 3px #FF9E00 !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+
+.nivelRegulador3Check .ui-button-text{
+    background:#FFD54F !important;
+	border:inset 3px #FFD54F !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador4Check .ui-button-text{
+    background:#66BB6A !important;
+	border:inset 3px #66BB6A !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador5Check .ui-button-text{
+    background:#42A5F5 !important;
+	border:inset 3px #42A5F5 !important;
+	position:relative;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.nivelRegulador1 .ui-fieldset .ui-state-default{
+background:  #fff !important;
+	
+}
+
+.nivelRegulador1Check,
+.nivelRegulador2Check,
+.nivelRegulador3Check,
+.nivelRegulador4Check,
+.nivelRegulador5Check
+{
+	top:0px;
+}
+
+.nivelRegulador1Check .ui-button-text::before,
+.nivelRegulador2Check .ui-button-text::before,
+.nivelRegulador3Check .ui-button-text::before,
+.nivelRegulador4Check .ui-button-text::before,
+.nivelRegulador5Check .ui-button-text::before
+{
+	content: "\f00c";
+    font-family: fontawesome;
+    position: absolute;
+    top: 10%;
+    left: 53%;
+    transform: translate(-50%);
+    font-size: 2rem;
+    text-shadow: 0 0 2px rgba(0,0,0,.7);
+}
+
+.marginLeft50 {
+	margin-left: 50px;
+}
+
+.marginTop10 {
+	margin-top: 10px;
+}
+
+.marginTop25 {
+	margin-top: 25px;
+}
+
+.historico-detalhado .panel-simples-esquerda .ui-panel-titlebar{
+	text-align: left !important;
+}
+
+
+
+.painelCentralLeitos .ui-corner-right .ui-button-text{
+	background: black !important;
+	
+}
+
+.painelCentralLeitos .ui-corner-left .ui-button-text{
+	background: black !important;
+	
+}
+
+.painelCentralLeitos  .ui-button.ui-corner-right.ui-state-active .ui-button-text{
+	background: #124BCC !important;
+}
+
+.painelCentralLeitos  .ui-button.ui-corner-left.ui-state-active .ui-button-text{
+	background: #B10B0B !important;
+}
+
+.listagemRegulacao {
+	
+	border: 0 none !important;
+	width: 100% !important;
+}
+
+.listagemBuscaVaga {
+	
+	border: 0 none !important;
+}
+
+.listagemBuscaVaga100 {
+	width: 100% !important;
+}
+
+.listagemBuscaVaga70 {
+	float: left;
+	width: 70% !important;
+}
+.listagemBuscaVaga60 {
+	float: left;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: relative;
+	width: 60% !important;
+}
+.listagemBuscaVaga40 {
+	float: left;
+	width: 40% !important;
+}
+.listagemBuscaVaga30 {
+	float: left;
+	width: 30% !important;
+}
+.listagemBuscaVaga20 {
+	float: left;
+	width: 20% !important;
+}
+
+.listagemIndicativo {
+	
+	border: 0 none !important;
+	width: 100% !important;
+}
+
+.listagemInternamento {
+	
+	border: 0 none !important;
+	width: 100% !important;
+}
+
+.listagemNaoAcatada {
+	
+	border: 0 none !important;
+	width: 100% !important;
+}
+
+.listagemEmAndamento {
+	
+	border: 0 none !important;
+	width: 100% !important;
+}
+
+.painelLeitoInformacao{
+	/*background-color: #EFEFEF !important;
+	opacity: 0.9 !important;*/
+}
+
+
+.oneRadioLabel200 label {
+    width: 200px;
+}
+
+.btnInvisible {
+	width: 0px;
+	height: 0px;
+	display: none !important;
+}
+
+.btnInvisible span {
+	display: none;
+}
+
+.btnMultiplaSelecao {
+	background-color: transparent !important;
+	margin-left: 10px;
+}
+.btnMultiplaSelecao .ui-icon {
+	margin-left: -11px !important;
+}
+.btnMultiplaSelecao:hover .ui-button-text {
+	background-color: #286862 !important;
+}
+.btnMultiplaSelecao:hover .ui-icon {
+	margin-top: -9px !important;
+}
+
+.btnRegistrarContato {
+	background-color: transparent !important;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+.btnRegistrarContato .ui-icon {
+	margin-left: 0px !important;
+}
+.btnRegistrarContato:hover .ui-button-text {
+	background-color: #286862 !important;
+}
+.btnRegistrarContato:hover .ui-icon {
+	margin-top: -9px !important;
+}
+
+.meiaOpacidade {
+	opacity: 0.5 !important;
+}
+
+.ui-steps.etapaSelecaoContato {
+	margin-top: 20px !important;
+}
+
+.btnFlutuanteCirculo {
+	background-color: transparent !important;
+	color: white !important;
+	font-size: 20px;
+	position: fixed !important;
+	right: 28% !important;
+	top: 85% !important;
+	z-index: 999;
+}
+
+.btnFlutuanteCirculo span.ui-button-text {
+	background-color: transparent;
+	border-radius: 20px !important;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important;
+	height: 40px !important;
+	width: 40px !important;
+}
+
+.btnFlutuanteCirculo span.ui-button-icon-left {
+	height: 20px;
+	margin-left: -17px !important;
+	margin-top: -11px !important;
+}
+
+.botaoAzul {
+	border-radius: 20px !important;
+	/* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important; */
+}
+
+.botaoAzul span.ui-button-text {
+	background-color: #7586d6 !important;
+}
+
+.botaoAzul span.ui-button-icon-left{
+	font-size: 24px !important;
+	margin-top: -12px !important;
+	margin-left: -5px !important;
+	overflow: visible !important;
+}
+
+.botaoLaranja {
+	border-radius: 20px !important;
+	/* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important; */
+}
+
+.botaoLaranjaSemTitulo span.ui-button-text {
+	background-color: #efa64c !important;
+}
+
+.botaoLaranjaSemTitulo {
+	border-radius: 20px !important;
+	/* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important; */
+}
+
+.botaoLaranjaSemTitulo span.ui-button-text {
+	background-color: #efa64c !important;
+}
+
+
+.botaoLaranja span.ui-button-text {
+	background-color: #efa64c !important;
+}
+
+.botaoLaranja span.ui-button-icon-left{
+	font-size: 24px !important;
+	margin-top: -12px !important;
+	margin-left: -5px !important;
+	overflow: visible !important;
+}
+
+.botaoLaranjaSemTitulo span.ui-button-icon-left{
+	font-size: 16px !important;
+	margin-top: -8px !important;
+	margin-left: -9px !important;
+	overflow: visible !important;
+}
+
+.botaoVerde {
+	border-radius: 20px !important;
+	/* box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4) !important; */
+}
+
+.botaoVerde span.ui-button-text {
+	background-color: #6fb384 !important;
+}
+
+.botaoVerde span.ui-button-icon-left{
+	font-size: 24px !important;
+	margin-top: -12px !important;
+	margin-left: -5px !important;
+	overflow: visible !important;
+}
+
+
+.classeGridColunas {
+	margin: 2px;
+	padding-left: 2px !important;
+	padding-right: 4px !important;	
+}
+
+/*.verticalMiddle { height: 100%; position: relative; }
+.verticalMiddle > div { position: absolute; width: 100%; height: 100%; display: table; }*/
+/*.verticalMiddle > div > div {display: table-cell; vertical-align: middle; }*/
+
+.btnTema {
+	width: 32px;
+	height: 32px;
+	color: white !important;
+}
+
+.btnTema span.ui-button-text {
+	background-color: #555e5e !important;
+}
+
+.btnMenu {
+	width: 32px;
+	height: 32px;
+	color: white !important;
+}
+
+.btnMenu span.ui-button-text {
+	background-color: #555e5e !important;
+}
+
+.menuPainelChamada .ui-menu-list .ui-menuitem {
+	color: #555e5e !important;
+}
+
+.menuPainelChamada .ui-menu-list .ui-menuitem .ui-state-hover {
+	background-color: #008390;
+	color: white !important;
+}
+
+.fonteTitillium {font-family: 'titillium_webregular' !important;}
+
+.loginChamadas {
+	max-width: 500px;
+	margin: 0 auto;
+	margin-top: 25px;
+	height: 400px;
+}
+
+.ui-steps.etapaSelecaoMotivoRestricao {
+	margin-top: 40px !important;
+}
+
+/*.evolucaoData{
+	background-color: #efefef !important;
+	width: 100%;
+	text-align: left;
+}*/
+
+.evolucaoContato {
+	width: 15px;
+	float: left;
+	min-width: 15px;
+}
+
+.evolucaoContato1{
+	background-color: #64b989 !important;
+}
+
+.evolucaoContato1:before{
+    content: "\f234";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 32px;
+    left: 19px;
+}
+
+
+.evolucaoContato2{
+	background-color: #00acac !important;
+}
+.evolucaoContato2:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 18px;
+}
+
+
+.evolucaoContato3{
+	background-color: #2f8ee5 !important;
+}
+.evolucaoContato3:before{
+    content: "\f21d";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 18px;
+}
+
+.evolucaoContato4{
+	background-color: #B5D7D6 !important;
+	/*background-color: #6c76af !important;*/
+}
+
+.evolucaoContato4:before{
+     content: "\f0f0";
+    /*content: "\f21d";*/
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 20px;
+}
+
+
+.evolucaoContato5{
+	background-color: #84696B !important;
+}
+
+.evolucaoContato5:before{
+    content: "\f236";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 18px;
+}
+
+.evolucaoContato6{
+	background-color: #58799f !important;
+}
+
+.evolucaoContato6:before{
+    content: "\f122";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 18px;
+}
+
+.evolucaoContato7 {
+	background-color: #E77162 !important;
+}
+
+.evolucaoContato7:before{
+    content: "\f0f8";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #FFF;
+    font-size: 26px;
+    padding-right: 0.5em;
+    position: absolute;
+    top: 31px;
+    left: 18px;
+}
+
+div.evolucaoData {
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+}
+
+div.evolucaoData:before {
+	border-top: 1px solid #0d737c;
+    content:"";
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+
+.fila-internamento .btnAbrirPesquisa.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only {
+	height:28px;
+	width:28px;
+	padding:0 !important;
+	margin-top:1px !important;
+}
+.fila-internamento .btnAbrirPesquisa.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-text-only .ui-button-text.ui-c {
+	background:url('../resources/imagens/ico-filtro.png') center 2px no-repeat !important;
+	height:28px;
+	width:28px;
+	padding:0 !important;
+}
+.fila-internamento .overlay-panel {
+	background-color: #fbfcfd;
+	border-radius: 0;
+	box-shadow: 1px 2px 2px 2px #888888 !important;
+	padding: 20px !important; 
+	position: absolute; 
+	top: 47px !important; 
+}
+
+.retiraSelectAll .ui-selectcheckboxmenu-header .ui-chkbox {
+    display: none; 
+}
+
+
+/* CSS utilizado para colocar cores no componente de seleção de classificacao de risco */
+/*Classificação de risco*/
+.btnClassificacaoRisco div:first-child .ui-button-text {
+	background: #F05050 !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:first-child  .ui-button-text{
+	background:#F05050 !important;
+	border:inset 3px #F05050;
+	position:relative;
+}						
+
+
+.btnClassificacaoRisco div:nth-child(2) span {
+	background: #FF9E00  !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(2)  .ui-button-text{
+	background:#FF9E00 !important;
+	border:inset 3px #FF9E00;
+	position:relative;
+}						
+
+
+.btnClassificacaoRisco div:nth-child(3) span {
+	background: #FFD54F !important;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(3)  .ui-button-text{
+	background:#FFD54F !important;
+	border:inset 3px #FFD54F;
+	position:relative;
+}	
+
+.btnClassificacaoRisco div:nth-child(4) span {
+   	background: #66BB6A !important;
+   	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(4)  .ui-button-text{
+	background:#66BB6A !important;
+	border:inset 3px #66BB6A;
+	position:relative;
+}	
+
+.btnClassificacaoRisco div:nth-child(5) span {
+   	background: #42A5F5 !important;
+   	height: 50px;
+	width: 50px;
+	border-radius: 50px !important;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(5) .ui-button-text{
+	background:#42A5F5 !important;
+	border:inset 3px #42A5F5;
+	position:relative;
+}
+
+.btnClassificacaoRisco div.ui-button.ui-state-active:first-child .ui-button-text:after, 
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(2) .ui-button-text:after, 
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(3) .ui-button-text:after, 
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(4) .ui-button-text:after, 
+.btnClassificacaoRisco div.ui-button.ui-state-active:nth-child(5) .ui-button-text:after {
+    content: "\f00c";
+    font-family: fontawesome;
+    position: absolute;
+    top: 7%;
+    left: 53%;
+    transform: translate(-50%);
+    font-size: 2rem;
+    text-shadow: 0 0 2px rgba(0,0,0,.7);
+}	
+
+
+.autoCompleteWid100 {
+	width: calc(100%) !important;
+}
+
+.autoCompleteWid100 input {
+	width: 100% !important;
+}
+
+.reimpressao-exames-receitas{}
+.reimpressao-exames-receitas .ui-datatable .ui-row-toggler{
+	  cursor: pointer;
+    background: #ddd;
+    padding: 8px 5px;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    font-size: .65rem;
+    text-align: center;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2), inset 0 1px 0 rgba(255,255,255,.3);
+}
+
+.cartaoEixoVacinacao {
+	position: relative;
+	height: 50px;
+	border-radius: 20px;
+	border: 1px solid;
+}
+
+.cartaoEixoVacinacao>label {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: inline-block;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-weight: 900 !important;
+	font-size: 1.8em;
+	padding: 0 15px;
+	white-space: nowrap;
+}
+
+/* Trata o painel Ultimo Usuario Cadastrado em telas pequenas */
+@media screen and (max-width: 990px) {
+	.ultimoCadastro {
+		display: none;
+	}
+	.setorPadding {
+		padding: 0 15px;
+	}
+}
+
+/* Torna o PrimeFaces-DataGrid responsivo */
+.dataGrid-responsivo .ui-grid-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+	.dataGrid-responsivo .ui-datagrid-column {
+		width: 100% !important;
+	}
+}
+@media screen and (min-width: 641px) and (max-width: 800px) {
+	.dataGrid-responsivo .ui-datagrid-column {
+		width: 50% !important;
+	}
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+	.dataGrid-responsivo .ui-datagrid-column {
+		width: 33.3333% !important;
+	}
+}
+
+
+.filter100 input {
+	width: 100% !important;
+}
+
+.scheduleTituloCenter h2 {
+	padding-right: 150px !important;
+}
+
+@media screen and (min-width: 992px) {
+	.es-md-pl-30 {
+		padding-left: 30px !important;
+	}
+}
